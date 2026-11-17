@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 480" width="880" height="480">
+<rect width="880" height="480" fill="white"/>
+<text x="440" y="34" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" font-weight="bold">Cutoff vs median time: sorted, N=10000</text>
+<text x="440" y="55" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#666">Median of 3 per-seed medians; 20 measured runs/seed</text>
+<line x1="92" x2="845" y1="392.00" y2="392.00" stroke="#e4e8ee"/>
+<text x="82" y="397.00" text-anchor="end" font-size="12" font-family="Arial,sans-serif" fill="#555">0.0000</text>
+<line x1="92" x2="845" y1="311.00" y2="311.00" stroke="#e4e8ee"/>
+<text x="82" y="316.00" text-anchor="end" font-size="12" font-family="Arial,sans-serif" fill="#555">0.0544</text>
+<line x1="92" x2="845" y1="230.00" y2="230.00" stroke="#e4e8ee"/>
+<text x="82" y="235.00" text-anchor="end" font-size="12" font-family="Arial,sans-serif" fill="#555">0.1088</text>
+<line x1="92" x2="845" y1="149.00" y2="149.00" stroke="#e4e8ee"/>
+<text x="82" y="154.00" text-anchor="end" font-size="12" font-family="Arial,sans-serif" fill="#555">0.1632</text>
+<line x1="92" x2="845" y1="68.00" y2="68.00" stroke="#e4e8ee"/>
+<text x="82" y="73.00" text-anchor="end" font-size="12" font-family="Arial,sans-serif" fill="#555">0.2176</text>
+<line x1="92" y1="68" x2="92" y2="392" stroke="#666"/>
+<line x1="92" y1="392" x2="845" y2="392" stroke="#666"/>
+<polyline fill="none" stroke="#276cba" stroke-width="2.6" points="92.00,110.26 139.06,171.91 174.36,204.97 209.66,229.54 280.25,229.54 374.38,254.48 468.50,254.48 656.75,264.76 845.00,264.68"/>
+<circle cx="92.00" cy="110.26" r="4" fill="#276cba"/>
+<text x="92.00" y="415" text-anchor="middle" font-family="Arial,sans-serif" font-size="12">0</text>
+<circle cx="139.06" cy="171.91" r="4" fill="#276cba"/>
+<text x="139.06" y="415" text-anchor="middle" font-family="Arial,sans-serif" font-size="12">4</text>
+<circle cx="174.36" cy="204.97" r="4" fill="#276cba"/>
+<text x="174.36" y="415" text-anchor="middle" font-family="Arial,sans-serif" font-size="12">7</text>
+<circle cx="209.66" cy="229.54" r="4" fill="#276cba"/>
+<text x="209.66" y="415" text-anchor="middle" font-family="Arial,sans-serif" font-size="12">10</text>
+<circle cx="280.25" cy="229.54" r="4" fill="#276cba"/>
+<text x="280.25" y="415" text-anchor="middle" font-family="Arial,sans-serif" font-size="12">16</text>
+<circle cx="374.38" cy="254.48" r="4" fill="#276cba"/>
+<text x="374.38" y="415" text-anchor="middle" font-family="Arial,sans-serif" font-size="12">24</text>
+<circle cx="468.50" cy="254.48" r="4" fill="#276cba"/>
+<text x="468.50" y="415" text-anchor="middle" font-family="Arial,sans-serif" font-size="12">32</text>
+<circle cx="656.75" cy="264.76" r="6" fill="#16834a"/>
+<text x="656.75" y="415" text-anchor="middle" font-family="Arial,sans-serif" font-size="12">48</text>
+<circle cx="845.00" cy="264.68" r="4" fill="#276cba"/>
+<text x="845.00" y="415" text-anchor="middle" font-family="Arial,sans-serif" font-size="12">64</text>
+<text x="440" y="446" text-anchor="middle" font-family="Arial,sans-serif" font-size="15">CUTOFF</text>
+<text transform="translate(25 245) rotate(-90)" text-anchor="middle" font-family="Arial,sans-serif" font-size="15">Time (ms)</text>
+</svg>

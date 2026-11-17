@@ -1,0 +1,17 @@
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Java compiled files
+out/
+*.class
+
+# Temporary files
+*.log
+*.tmp
+
+# Operating system
+.DS_Store
+Thumbs.db
+/src/results/
