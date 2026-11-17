@@ -212,3 +212,16 @@ Các con số trong báo cáo được tính trực tiếp từ:
 ---
 
 *Bản báo cáo này là phân tích dữ liệu tổng hợp, không phải chứng nhận kiểm định ý nghĩa thống kê hay kết quả benchmark trên một máy khác.*
+Môi trường và cấu hình thực nghiệm
+
+Thí nghiệm tìm giá trị CUTOFF tối ưu cho thuật toán Enhanced MergeSort được thực hiện trên máy tính cá nhân có bộ xử lý Intel Core i5-12500H thế hệ 12, bộ nhớ RAM khoảng 16 GB và hệ điều hành Microsoft Windows 11 Pro (phiên bản 10.0.22631).
+
+Chương trình được phát triển bằng Java, sử dụng JDK 19.0.1, trình biên dịch javac 19.0.1 và Java HotSpot 64-Bit Server VM (build 19.0.1+10-21). Thời gian thực thi được đo bằng phương thức System.nanoTime().
+
+Thí nghiệm sử dụng 6 loại dữ liệu, 3 kích thước mảng, 3 seed cố định và 9 giá trị CUTOFF. Mỗi cấu hình được thực hiện 5 lượt warm-up và 20 lượt đo chính thức.
+
+Thời gian đọc dữ liệu từ file, sao chép mảng và kiểm tra kết quả sắp xếp được loại khỏi khoảng thời gian đo thuật toán.
+
+Việc cố định dữ liệu đầu vào, seed và phương pháp đo giúp nâng cao khả năng tái lập thí nghiệm. Tuy nhiên, kết quả vẫn có thể chịu ảnh hưởng của JIT compilation, garbage collection, bộ nhớ đệm, nhiệt độ CPU và tải hệ thống.
+
+Các điều kiện như chế độ nguồn điện, nhiệt độ CPU và mức sử dụng tài nguyên trong thời điểm đo ban đầu không được ghi nhận đầy đủ. Do đó, nghiên cứu không khẳng định các yếu tố này đã được kiểm soát tuyệt đối.
